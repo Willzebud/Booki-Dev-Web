@@ -40,7 +40,7 @@
                         <button type="submit"></button>
                     </form>
                 </div>
-                <article class="filtre-site">
+                <div class="filtre-site">
                     <h2>Filtres</h2>
                     <div class="section-filtre">
                         <div class="filtre">
@@ -76,7 +76,7 @@
                             </a>
                         </div>
                     </div>
-                </article>
+                </div>
                 <div class="information-filtre">
                     <div class="icone-information">
                         <i class="fas fa-info" aria-hidden="true"></i>
@@ -85,7 +85,7 @@
                 </div>
             </section>
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section id="hebergements" class="hebergements">
                     <div class="hebergements-title">
                         <h2 class="section-title">Hébergements à Marseille</h2>
                     </div>
@@ -284,52 +284,42 @@
                     </div>
                 </section>
             </div>
-            <div class="activites-section">
-                <div class="activites-title">
-                    <h2 class="section-title">Activités à Marseille</h2>
-                </div>
+            <div id="activites" class="activites-section">
+                    <h2>Activités à Marseille</h2>
                 <div class="activites-cards">
                     <a href="#">
                         <article class="card-a">
-                            <img src="/Users/willzebud/Desktop/booki-starter-code-master/images/activites/reno-laithienne.jpg"
+                            <img src="./images/activites/reno-laithienne.jpg"
                                 alt="Image d'un port montrant des bateaux">
                             <div class="card-content">
-                                <div class="card-txt">
-                                    <h3 class="card-title">Vieux-Port</h3>
-                                </div>
+                                <h3 class="card-title">Vieux-Port</h3>
                             </div>
                         </article>
                     </a>
                     <a href="#">
                         <article class="card-a">
-                            <img src="/Users/willzebud/Desktop/booki-starter-code-master/images/activites/paul-hermann.jpg"
+                            <img src="./images/activites/paul-hermann.jpg"
                                 alt="Fort de Pomègues">
                             <div class="card-content">
-                                <div class="card-txt">
-                                    <h3 class="card-title">Fort de Pomègues</h3>
-                                </div>
+                                <h3 class="card-title">Fort de Pomègues</h3>
                             </div>
                         </article>
                     </a>
                     <a href="#">
                         <article class="card-a">
-                            <img src="/Users/willzebud/Desktop/booki-starter-code-master/images/activites/kilyan-sockalingum.jpg"
+                            <img src="./images/activites/kilyan-sockalingum.jpg"
                                 alt="Image d'un paysage montrant les Calanques de Marseille">
                             <div class="card-content">
-                                <div class="card-txt">
-                                    <h3 class="card-title">Parc national des Calanques</h3>
-                                </div>
+                                <h3 class="card-title">Parc national des Calanques</h3>
                             </div>
                         </article>
                     </a>
                     <a href="#">
                         <article class="card-a">
-                            <img src="/Users/willzebud/Desktop/booki-starter-code-master/images/activites/florian-wehde.jpg"
+                            <img src="./images/activites/florian-wehde.jpg"
                                 alt="Image de la ville de Marseille montrant Notre Dame de la Garde">
                             <div class="card-content">
-                                <div class="card-txt">
-                                    <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
-                                </div>
+                                <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
                             </div>
                         </article>
                     </a>
@@ -338,9 +328,9 @@
         </main>
         <footer>
             <div class="footer-block">
-                <article>
+                <div>
+                    <h2>À propos</h2>
                     <ul>
-                        <h2>À propos</h2>
                         <li>
                             <a href="#">Fonctionnement du site</a>
                         </li>
@@ -351,10 +341,10 @@
                             <a href="#">Données et confidentialité</a>
                         </li>
                     </ul>
-                </article>
-                <article>
+                </div>
+                <div>
+                    <h2>Nos hébergements</h2>
                     <ul>
-                        <h2>Nos hébergements</h2>
                         <li>
                             <a href="#">Charte qualité</a>
                         </li>
@@ -362,10 +352,10 @@
                             <a href="#">Proposer votre hôtel</a>
                         </li>
                     </ul>
-                </article>
-                <article>
+                </div>
+                <div>
+                    <h2>Assistance</h2>
                     <ul>
-                        <h2>Assistance</h2>
                         <li>
                             <a href="#">Centre d’aide</a>
                         </li>
@@ -373,7 +363,7 @@
                             <a href="#">Nous contacter</a>
                         </li>
                     </ul>
-                </article>
+                </div>
             </div>
         </footer>
     </div>
