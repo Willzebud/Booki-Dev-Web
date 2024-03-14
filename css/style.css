@@ -51,7 +51,7 @@ body {
 .nav-link:focus::before {
     content: '';
     position: absolute;
-    top: 0px;
+    top: 0;
     left: 0;
     right: 0;
     height: 2px;
@@ -504,8 +504,14 @@ ul {
 
     .nav-link:hover::before,
     .nav-link:focus::before {
-        top: auto;
+        content: '';
+        position: absolute;
+        top: auto; 
         bottom: 0;
+        left: 50%;
+        width: 50vw; 
+        height: 2px;
+        margin-left: -25vw;
     }
 
     .container {
